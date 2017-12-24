@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D92D69761FE6A42B003758FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D69751FE6A42B003758FA /* AppDelegate.swift */; };
-		D92D69781FE6A42B003758FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D69771FE6A42B003758FA /* ViewController.swift */; };
 		D92D697B1FE6A42B003758FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D69791FE6A42B003758FA /* Main.storyboard */; };
 		D92D697D1FE6A42B003758FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D92D697C1FE6A42B003758FA /* Assets.xcassets */; };
 		D92D69801FE6A42B003758FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92D697E1FE6A42B003758FA /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		D92D69721FE6A42B003758FA /* 斗鱼.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "斗鱼.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92D69751FE6A42B003758FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D92D69771FE6A42B003758FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D92D697A1FE6A42B003758FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D92D697C1FE6A42B003758FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D92D697F1FE6A42B003758FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +33,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9184D391FEF940E00445DD1 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9184D3A1FEF940E00445DD1 /* Home */,
+				D9184D3B1FEF940E00445DD1 /* Tools */,
+				D9184D3C1FEF940E00445DD1 /* Proflle */,
+				D9184D3D1FEF940E00445DD1 /* Follow */,
+				D9184D3E1FEF940E00445DD1 /* Live */,
+				D9184D3F1FEF940E00445DD1 /* Main */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D9184D3A1FEF940E00445DD1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D9184D3B1FEF940E00445DD1 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D9184D3C1FEF940E00445DD1 /* Proflle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Proflle;
+			sourceTree = "<group>";
+		};
+		D9184D3D1FEF940E00445DD1 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		D9184D3E1FEF940E00445DD1 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D9184D3F1FEF940E00445DD1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		D92D69691FE6A42B003758FA = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +107,8 @@
 		D92D69741FE6A42B003758FA /* 斗鱼 */ = {
 			isa = PBXGroup;
 			children = (
+				D9184D391FEF940E00445DD1 /* classes */,
 				D92D69751FE6A42B003758FA /* AppDelegate.swift */,
-				D92D69771FE6A42B003758FA /* ViewController.swift */,
 				D92D69791FE6A42B003758FA /* Main.storyboard */,
 				D92D697C1FE6A42B003758FA /* Assets.xcassets */,
 				D92D697E1FE6A42B003758FA /* LaunchScreen.storyboard */,
@@ -136,7 +189,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D92D69781FE6A42B003758FA /* ViewController.swift in Sources */,
 				D92D69761FE6A42B003758FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
